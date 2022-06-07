@@ -15,7 +15,8 @@
     "skipToTranscript": {
       "type": "string",
       "required": true,
-      "default": "Skip to transcript",
+      "default": "Saltar a la transcripción",
+      "title": "Saltar a la transcripción",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -23,7 +24,8 @@
     "playText": {
       "type": "string",
       "required": true,
-      "default": "Play",
+      "default": "Tocar",
+      "title": "Tocar",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -31,7 +33,8 @@
     "pauseText": {
       "type": "string",
       "required": true,
-      "default": "Pause",
+      "default": "Pausa",
+      "title": "Pausa",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -39,7 +42,8 @@
     "stopText": {
       "type": "string",
       "required": true,
-      "default": "Stop",
+      "default": "Deténgase",
+      "title": "Deténgase",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -47,7 +51,8 @@
     "audioPlayerText": {
       "type": "string",
       "required": true,
-      "default": "Audio Player",
+      "default": "Reproductor de música",
+      "title": "Reproductor de música",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -55,7 +60,8 @@
     "videoPlayerText": {
       "type": "string",
       "required": true,
-      "default": "Video Player",
+      "default": "Reproductor de video",
+      "title": "Reproductor de video",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -64,6 +70,7 @@
       "type": "string",
       "required": true,
       "default": "Captions/Subtitles",
+      "title": "Subtítulos",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -71,7 +78,8 @@
     "timeSliderText": {
       "type": "string",
       "required": true,
-      "default": "Time Slider",
+      "default": "Control deslizante de tiempo",
+      "title": "Control deslizante de tiempo",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -79,7 +87,8 @@
     "muteText": {
       "type": "string",
       "required": true,
-      "default": "Mute Toggle",
+      "default": "Alternar silencio",
+      "title": "Alternar silencio",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -87,7 +96,8 @@
     "unmuteStatusText": {
       "type": "string",
       "required": true,
-      "default": "Unmute",
+      "default": "Desactivar el silencio",
+      "title": "Desactivar el silencio",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -95,7 +105,8 @@
     "muteStatusText": {
       "type": "string",
       "required": true,
-      "default": "Mute",
+      "default": "Mudo",
+      "title": "Mudo",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -103,7 +114,8 @@
     "volumeSliderText": {
       "type": "string",
       "required": true,
-      "default": "Volume Slider",
+      "default": "Control deslizante de volumen",
+      "title": "Control deslizante de volumen",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -111,7 +123,8 @@
     "fullscreenText": {
       "type": "string",
       "required": true,
-      "default": "Fullscreen",
+      "default": "Pantalla completa",
+      "title": "Pantalla completa",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -119,7 +132,8 @@
     "goFullscreenText": {
       "type": "string",
       "required": true,
-      "default": "Go Fullscreen",
+      "default": "Ir a pantalla completa",
+      "title": "Ir a pantalla completa",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -127,7 +141,8 @@
     "turnOffFullscreenText": {
       "type": "string",
       "required": true,
-      "default": "Turn off Fullscreen",
+      "default": "Desactivar la pantalla completa",
+      "title": "Desactivar la pantalla completa",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -136,6 +151,7 @@
       "type": "string",
       "required": true,
       "default": "None",
+      "title": "Ninguno",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -143,7 +159,8 @@
     "skipBackText": {
       "type": "string",
       "required": true,
-      "default": "Skip back %1 seconds",
+      "default": "Saltar hacia atrás %1 segundos",
+      "title": "Saltar hacia atrás %1 segundos",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -151,7 +168,8 @@
     "allyVolumeControlText": {
       "type": "string",
       "required": true,
-      "default": "Use Up/Down Arrow keys to increase or decrease volume.",
+      "default": "Use las teclas de flecha arriba/abajo para aumentar o disminuir el volumen.",
+      "title" : "Use las teclas de flecha arriba/abajo para aumentar o disminuir el volumen",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -159,7 +177,8 @@
     "progessHelpText": {
       "type": "string",
       "required": true,
-      "default": "Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds.",
+      "default": "Use las teclas de flecha izquierda/derecha para avanzar un segundo, flechas arriba/abajo para avanzar diez segundos.",
+      "title": "Use las teclas de flecha izquierda/derecha para avanzar un segundo, flechas arriba/abajo para avanzar diez segundos",
       "inputType": "Text",
       "validators": [],
       "translatable": true
@@ -177,9 +196,10 @@
       "type": "string",
       "required": false,
       "default": "",
+      "title": "Instrucción",
       "inputType": "Text",
       "validators": [],
-      "help": "This is the instruction text",
+      "help": "Este es el texto de instrucciones.",
       "translatable": true
     },
     "_media": {
@@ -191,53 +211,53 @@
           "type": "string",
           "required": false,
           "default": "",
-          "title": "MP4 Link",
+          "title": "Enlace MP4",
           "inputType": "Asset:video",
           "validators": [],
-          "help": "Link to an MP4 video"
+          "help": "Enlace a un video MP4"
         },
         "ogv": {
           "type": "string",
           "required": false,
           "default": "",
-          "title": "OGV Link",
+          "title": "Enlace OGV",
           "inputType": "Asset:video",
           "validators": [],
-          "help": "Link to an OGV video"
+          "help": "Enlace a un video OGV"
         },
         "webm": {
           "type": "string",
           "required": false,
           "default": "",
-          "title": "WEBM Link",
+          "title": "Enlace WEBM",
           "inputType": "Asset:video",
           "validators": [],
-          "help": "Link to a WEBM video"
+          "help": "Enlace a un vídeo WEBM"
         },
         "mp3": {
           "type": "string",
           "required": false,
           "default": "",
-          "title": "MP3 Link",
+          "title": "Enlace MP3",
           "inputType": "Asset:audio",
           "validators": [],
-          "help": "Link to an MP3 audio"
+          "help": "Enlace a un audio MP3"
         },
         "source": {
           "type": "string",
           "required": false,
           "default": "",
-          "title": "Source URL",
+          "title": "URL de origen",
           "inputType": "Text",
           "validators": [],
-          "help": "Enter an external link, such as a YouTube URL"
+          "help": "Introduce un enlace externo, como una URL de YouTube"
         },
         "type": {
           "type": "string",
           "required": false,
           "enum": ["", "video/youtube", "video/vimeo"],
           "default": "",
-          "title": "Type",
+          "title": "Escribe",
           "inputType": {"type": "Select", "options":["", "video/youtube", "video/vimeo"]},
           "validators": [],
           "help": "Select the 'Source URL' type, for a YouTube link this would be 'video/youtube', and 'video/vimeo' for Vimeo."
@@ -246,15 +266,15 @@
           "type": "string",
           "required": false,
           "default": "",
-          "title": "Poster Link",
+          "title": "Enlace del póster",
           "inputType": "Asset:image",
           "validators": [],
-          "help": "Image displayed before the video is played (except on Vimeo)"
+          "help": "Imagen que se muestra antes de que se reproduzca el video (except on Vimeo)"
         },
         "cc": {
           "type": "array",
           "required": false,
-          "title": "Closed Captions",
+          "title": "Subtítulos",
           "items": {
             "type": "object",
             "required": false,
@@ -263,7 +283,7 @@
                 "type": "string",
                 "required": false,
                 "default": "",
-                "title": "Language Code",
+                "title": "Código de lenguaje",
                 "inputType": "Text",
                 "validators": ["required"]
               },
@@ -271,7 +291,7 @@
                 "type": "string",
                 "required": false,
                 "default": "",
-                "title": "Caption File",
+                "title": "Archivo de subtítulos",
                 "inputType": "Asset:other",
                 "validators": ["required"]
               }
@@ -285,16 +305,16 @@
       "required": true,
       "enum": ["inview", "play", "ended"],
       "default": "play",
-      "title": "Completion trigger",
+      "title": "Disparador de finalización",
       "inputType": {"type": "Select", "options":["inview", "play", "ended"]},
       "validators": ["required"],
-      "help": "Defines what media event should trigger completion of this component."
+      "help": "Define qué evento de medios debe desencadenar la finalización de este componente."
     },
     "_useClosedCaptions": {
       "type": "boolean",
       "required": false,
       "default": false,
-      "title": "Use Closed Captions",
+      "title": "Usar subtítulos",
       "inputType": "Checkbox",
       "validators": []
     },
@@ -302,7 +322,7 @@
       "type": "string",
       "required": false,
       "default": "en",
-      "title": "Initial Closed Captions language",
+      "title": "Idioma inicial de los subtítulos ocultos",
       "inputType": "Text",
       "validators": [],
       "help": "Select which closed caption language to display by default. Only required when closed captions are enabled and there are multiple languages."
@@ -311,7 +331,7 @@
       "type": "boolean",
       "required": false,
       "default": false,
-      "title": "Show Volume Control (Not supported on mobile devices)",
+      "title": "Mostrar control de volumen (no compatible con dispositivos móviles)",
       "inputType": "Checkbox",
       "validators": [],
       "help": "When enabled, the volume control will appear in the media player. On mobile devices the audio level is controlled the device's physical volume controls."
@@ -321,7 +341,7 @@
       "required":true,
       "enum": ["0%", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"],
       "default": "80%",
-      "title": "Default volume (Not supported on mobile devices)",
+      "title": "Volumen predeterminado (no compatible con dispositivos móviles)",
       "inputType": {"type": "Select", "options":["0%", "10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"]},
       "validators": ["required"],
       "help": "Defines the default volume. On mobile devices the audio level is under the user's physical control"
@@ -330,7 +350,7 @@
       "type": "boolean",
       "required": false,
       "default": false,
-      "title": "Allow Full Screen",
+      "title": "Permitir pantalla completa",
       "inputType": "Checkbox",
       "validators": []
     },
@@ -338,7 +358,7 @@
       "type": "string",
       "required": true,
       "default": "landscape",
-      "title": "Aspect ratio",
+      "title": "Relación de aspecto",
       "enum": ["landscape", "portrait", "square"],
       "inputType": {
         "type": "Select",
@@ -349,7 +369,7 @@
       "type": "boolean",
       "required": false,
       "default": false,
-      "title": "Pause playback when video is no longer in view.",
+      "title": "Pausar la reproducción cuando el video ya no está a la vista.",
       "inputType": "Checkbox",
       "validators": []
     },
@@ -357,7 +377,7 @@
       "type": "boolean",
       "required": false,
       "default": false,
-      "title": "Play videos inline on iOS",
+      "title": "Reproducir videos en línea en iOS",
       "inputType": "Checkbox",
       "validators": [],
       "help": "If enabled, videos will play 'inline' on iPhones (the same way they do on iPads). Note that this feature is only available in iOS10 and above."
@@ -366,7 +386,7 @@
       "type": "boolean",
       "required": false,
       "default": false,
-      "title": "Attempt to prevent media scrubbing?",
+      "title": "¿Intento evitar la limpieza de medios?",
       "inputType": "Checkbox",
       "validators": [],
       "help": "If enabled, will attempt to prevent users from skipping ahead in audio/video."
@@ -374,7 +394,7 @@
     "_transcript": {
       "type": "object",
       "required": false,
-      "title": "Transcript Options",
+      "title": "Opciones de transcripción",
       "properties": {
         "_setCompletionOnView": {
           "type": "boolean",
@@ -383,13 +403,13 @@
           "title": "Trigger completion?",
           "inputType": "Checkbox",
           "validators": [],
-          "help": "Whether to have this component mark as completed when the transcript is shown."
+          "help": "Si desea que este componente se marque como completado cuando se muestre la transcripción."
         },
         "_inlineTranscript": {
           "type": "boolean",
           "required": false,
           "default": false,
-          "title": "Show Inline",
+          "title": "Mostrar en línea",
           "inputType": "Checkbox",
           "validators": []
         },
@@ -397,7 +417,7 @@
           "type": "boolean",
           "required": false,
           "default": false,
-          "title": "Show Link",
+          "title": "Mostrar enlace",
           "inputType": "Checkbox",
           "validators": []
         },
@@ -405,7 +425,7 @@
           "type": "string",
           "required": false,
           "default": "",
-          "title": "Inline Open Button",
+          "title": "Botón de apertura en línea",
           "inputType": "Text",
           "validators": [],
           "translatable": true
@@ -414,7 +434,7 @@
           "type": "string",
           "required": false,
           "default": "",
-          "title": "Inline Close Button",
+          "title": "Botón de cierre en línea",
           "inputType": "Text",
           "validators": [],
           "translatable": true
@@ -426,14 +446,14 @@
           "title": "Inline Transcript",
           "inputType": "TextArea",
           "validators": [],
-          "help": "Optional text appears below the video",
+          "help": "El texto opcional aparece debajo del video.",
           "translatable": true
         },
         "transcriptLinkButton": {
           "type": "string",
           "required": false,
           "default": "",
-          "title": "Link Open Button",
+          "title": "Botón Abrir enlace",
           "inputType": "Text",
           "validators": [],
           "translatable": true
@@ -445,20 +465,20 @@
           "title": "Transcript Link",
           "inputType": "Asset:other",
           "validators": [],
-          "help": "Select a file for the transcript link"
+          "help": "Seleccione un archivo para el enlace de transcripción"
         }
       }
     },
     "_playerOptions": {
       "type": "object",
       "default": {},
-      "title": "Player Options",
+      "title": "Opciones del jugador",
       "inputType": {
         "type": "CodeEditor",
         "mode": "json"
       },
       "validators": [],
-      "help": "Optional object that can be used to customize the player"
+      "help": "Objeto opcional que se puede utilizar para personalizar el reproductor."
     }
   }
 }
