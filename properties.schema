@@ -9,6 +9,7 @@
       "required": true,
       "default": "Media player{{#any _transcript._inlineTranscript _transcript._externalTranscript}} and transcript{{/any}}.",
       "inputType": "Text",
+      "title": "Región de Aria",
       "validators": [],
       "translatable": true
     },
@@ -189,6 +190,7 @@
       "type": "string",
       "required": true,
       "enum": ["full-width", "half-width", "both"],
+      "title": "Diseño compatible",
       "default": "both",
       "editorOnly": true
     },
@@ -278,6 +280,7 @@
           "items": {
             "type": "object",
             "required": false,
+            "title": "Elementos",
             "properties": {
               "srclang": {
                 "type": "string",
@@ -321,7 +324,7 @@
     "_startLanguage": {
       "type": "string",
       "required": false,
-      "default": "en",
+      "default": "es",
       "title": "Idioma inicial de los subtítulos ocultos",
       "inputType": "Text",
       "validators": [],
